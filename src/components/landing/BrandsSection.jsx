@@ -44,12 +44,12 @@ export default function BrandsSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: i * 0.08 }}
-                            className="group flex items-center justify-center py-8 sm:py-10 px-6 rounded-2xl bg-white hover:bg-slate-900 border border-slate-200 hover:border-slate-800 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-xl"
+                            className="group flex items-center justify-center py-8 sm:py-10 px-6 rounded-2xl bg-white border-2 border-slate-100 hover:border-lime-500 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-lg hover:shadow-lime-500/10 hover:-translate-y-1"
                         >
                             <img
                                 src={brand.logo}
                                 alt={brand.name}
-                                className="h-16 sm:h-20 w-auto max-w-full object-contain mix-blend-multiply opacity-70 group-hover:opacity-100 transition-all duration-500 group-hover:brightness-[10] group-hover:contrast-[0.5] group-hover:mix-blend-normal"
+                                className="h-16 sm:h-20 w-auto max-w-full object-contain mix-blend-multiply opacity-50 group-hover:opacity-90 transition-all duration-500"
                             />
                         </motion.div>
                     ))}
