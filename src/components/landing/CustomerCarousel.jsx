@@ -62,7 +62,7 @@ export default function CustomerCarousel() {
                         #ArenaAtleta
                     </h2>
                     <p className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
-                        Nossos Clientes em Ação
+                        Destaques
                     </p>
                 </motion.div>
             </div>

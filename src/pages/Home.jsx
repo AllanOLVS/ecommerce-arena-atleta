@@ -2,13 +2,12 @@ import React from "react";
 import Header from "../components/landing/Header";
 import Hero from "../components/landing/Hero";
 import QuickCategories from "../components/landing/QuickCategories";
-import BrandsSection from "../components/landing/BrandsSection";
+import TrustBar from "../components/landing/TrustBar";
 import Bestsellers from "../components/landing/Bestsellers";
+import BrandsSection from "../components/landing/BrandsSection";
 import PromoBanner from "../components/landing/PromoBanner";
 import Testimonials from "../components/landing/Testimonials";
 import CustomerCarousel from "../components/landing/CustomerCarousel";
-import TrustBar from "../components/landing/TrustBar";
-import NewsletterCTA from "../components/landing/NewsletterCTA";
 import Footer from "../components/landing/Footer";
 
 export default function Home() {
@@ -17,13 +16,12 @@ export default function Home() {
             <Header />
             <Hero />
             <QuickCategories />
-            <BrandsSection />
+            <TrustBar />
             <Bestsellers />
+            <BrandsSection />
             <PromoBanner />
             <Testimonials />
             <CustomerCarousel />
-            <TrustBar />
-            <NewsletterCTA />
             <Footer />
         </div>
     );
