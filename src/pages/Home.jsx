@@ -8,6 +8,7 @@ import BrandsSection from "../components/landing/BrandsSection";
 import PromoBanner from "../components/landing/PromoBanner";
 import Testimonials from "../components/landing/Testimonials";
 import CustomerCarousel from "../components/landing/CustomerCarousel";
+import THIphones from "../components/landing/THIphones";
 import Footer from "../components/landing/Footer";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
             <PromoBanner />
             <Testimonials />
             <CustomerCarousel />
+            <THIphones />
             <Footer />
         </div>
     );
